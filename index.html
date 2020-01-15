@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html class="no-js">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Weather Website</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="card">
+      <div id="userInfo">
+        <input type="text" placeholder="Type Your City" id="cityInput" />
+        <button type="button" id="searchButton">Search</button>
+      </div>
+      <div id="weather">
+        <h1 id="location"></h1>
+        <h2 id="temp"></h2>
+        <div id="description"></div>
+        <div id="icon"></div>
+        <div id="time"></div>
+      </div>
+    </div>
+
+    <script src="config.js" async defer></script>
+    <script src="main2.js" async defer></script>
+  </body>
+</html>
